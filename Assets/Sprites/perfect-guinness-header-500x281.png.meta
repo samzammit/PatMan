@@ -3,35 +3,35 @@ guid: 433128f5c9dd6c34aa9a86378306931c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8164144525892369084
-    second: perfect-guinness-header-500x281_0
-  - first:
       213: -3932205207719736450
     second: perfect-guinness-header-500x281_1
-  - first:
-      213: 445411568991300551
-    second: perfect-guinness-header-500x281_2
   - first:
       213: 2604558273031135362
     second: perfect-guinness-header-500x281_3
   - first:
-      213: 1700398369459903448
-    second: perfect-guinness-header-500x281_4
-  - first:
       213: -8749921596889582851
     second: perfect-guinness-header-500x281_5
-  - first:
-      213: 1763678772785711654
-    second: perfect-guinness-header-500x281_6
   - first:
       213: 412418567754011020
     second: perfect-guinness-header-500x281_7
   - first:
-      213: 7893807310630207541
-    second: perfect-guinness-header-500x281_8
-  - first:
       213: -386819928256217223
     second: perfect-guinness-header-500x281_9
+  - first:
+      213: 413887144748654758
+    second: perfect-guinness-header-500x281_11
+  - first:
+      213: 7179858301035829718
+    second: perfect-guinness-header-500x281_13
+  - first:
+      213: -9204051296468826878
+    second: perfect-guinness-header-500x281_15
+  - first:
+      213: -863796090472329976
+    second: perfect-guinness-header-500x281_17
+  - first:
+      213: 2476503583827147863
+    second: perfect-guinness-header-500x281_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,34 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: perfect-guinness-header-500x281_0
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 1133
-        width: 119
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbab3c8d03edc4170800000000000000
-      internalID: 8164144525892369084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: perfect-guinness-header-500x281_1
       rect:
         serializedVersion: 2
-        x: 748
-        y: 1133
-        width: 119
-        height: 254
+        x: 244
+        y: 1132
+        width: 126
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,34 +166,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfect-guinness-header-500x281_2
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 852
-        width: 119
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cb639c467b6e2600800000000000000
-      internalID: 445411568991300551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: perfect-guinness-header-500x281_3
       rect:
         serializedVersion: 2
-        x: 748
-        y: 852
-        width: 119
-        height: 254
+        x: 742
+        y: 1134
+        width: 143
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,34 +187,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfect-guinness-header-500x281_4
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 571
-        width: 119
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8db9f44de47099710800000000000000
-      internalID: 1700398369459903448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: perfect-guinness-header-500x281_5
       rect:
         serializedVersion: 2
-        x: 748
-        y: 571
-        width: 119
-        height: 254
+        x: 243
+        y: 853
+        width: 129
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,34 +208,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfect-guinness-header-500x281_6
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 290
-        width: 119
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62a0acddf78d97810800000000000000
-      internalID: 1763678772785711654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: perfect-guinness-header-500x281_7
       rect:
         serializedVersion: 2
-        x: 748
-        y: 290
-        width: 119
-        height: 254
+        x: 741
+        y: 853
+        width: 145
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,34 +229,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: perfect-guinness-header-500x281_8
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 9
-        width: 119
-        height: 254
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 530ce730def6c8d60800000000000000
-      internalID: 7893807310630207541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: perfect-guinness-header-500x281_9
       rect:
         serializedVersion: 2
-        x: 748
-        y: 9
-        width: 119
-        height: 254
+        x: 244
+        y: 571
+        width: 128
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,6 +245,111 @@ TextureImporter:
       bones: []
       spriteID: 97ffe30235db1aaf0800000000000000
       internalID: -386819928256217223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect-guinness-header-500x281_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 572
+        width: 145
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a028df4a2c6eb500800000000000000
+      internalID: 413887144748654758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect-guinness-header-500x281_13
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 288
+        width: 126
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d951e2951bf3a360800000000000000
+      internalID: 7179858301035829718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect-guinness-header-500x281_15
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 289
+        width: 146
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205808b6c14a44080800000000000000
+      internalID: -9204051296468826878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect-guinness-header-500x281_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 7
+        width: 130
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d8605480e2304f0800000000000000
+      internalID: -863796090472329976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: perfect-guinness-header-500x281_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 11
+        width: 150
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cbffe63ee4e5220800000000000000
+      internalID: 2476503583827147863
       vertices: []
       indices: 
       edges: []
