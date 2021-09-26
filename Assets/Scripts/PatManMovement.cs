@@ -7,29 +7,72 @@ public class PatManMovement : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject PatMan;
-    public float movementSpeed = 0.1f;
-    Vector2 startingPos;
-    Vector2 secondPos;
-    Vector2 thirdPos;
-    Vector2 fourthPos;
-    bool left, right, up, down;
+    [SerializeField]public float movementSpeed = 1f;
+    public GameObject startingPos;
+    public GameObject secondPos;
+    public GameObject thirdPos;
+    public GameObject fourthPos;
+    bool isStart, isFirst, isSecond, isThird, isFourth;
 
 
     void Start()
     {
-        startingPos = new Vector2(-0.5f, -0.75f);
-        secondPos = new Vector2(-0.5f, 0.5f);
-        thirdPos = new Vector2(1.1f, 0.5f);
-        fourthPos = new Vector2(1.1f, -0.75f);
-        PatMan.transform.position = startingPos;
+   
+        PatMan.transform.position = startingPos.transform.position;
+        isStart = true;
+        isFirst = false;
+        isSecond = false;
+        isThird = false;
+        //isFourth = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, secondPos, movementSpeed*Time.deltaTime);
-        //PatMan.transform.rotation = 
-        //PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, thirdPos, movementSpeed * Time.deltaTime);
+        if (isStart == true) {
+            PatMan.transform.rotation = Quaternion.Euler(0, 0, 90);
+            PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, secondPos.transform.position, movementSpeed * Time.deltaTime);
+        }
+        if (PatMan.transform.position == secondPos.transform.position) {
+            isFirst = true;
+            isStart = false;
+        }
+       
+         if (isFirst == true)
+         {
+             PatMan.transform.rotation = Quaternion.Euler(0, 0, 0);
+             PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, thirdPos.transform.position, movementSpeed * Time.deltaTime);
+         }
+        if (PatMan.transform.position == thirdPos.transform.position) {
+            isSecond = true;
+            isFirst = false;
+        }
+
+       
+         if (isSecond == true)
+         {
+             PatMan.transform.rotation = Quaternion.Euler(0, 0, 270);
+             PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, fourthPos.transform.position, movementSpeed * Time.deltaTime);
+         }
+        if (PatMan.transform.position == fourthPos.transform.position) {
+            isThird = true;
+            isSecond = false;
+        }
+
+
+
+         if (isThird == true)
+         {
+             PatMan.transform.rotation = Quaternion.Euler(0, 180, 0);
+             PatMan.transform.position = Vector2.MoveTowards(PatMan.transform.position, startingPos.transform.position, movementSpeed * Time.deltaTime);
+         }
+        if (PatMan.transform.position == startingPos.transform.position)
+        {
+            isStart = true;
+            isThird = false;
+        }
+
+
 
     }
 }
