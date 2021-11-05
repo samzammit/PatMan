@@ -5,21 +5,22 @@ using UnityEngine;
 public class audioScript : MonoBehaviour
 {
 
-    public AudioClip otherClip;
     AudioSource audioSource;
+    public Sound[] clips;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+        foreach (Sound s in clips) {
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+        }
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        if (!audioSource.isPlaying) {
-            audioSource.clip = otherClip;
-            audioSource.Play();
-        }
+        
     }
 }
